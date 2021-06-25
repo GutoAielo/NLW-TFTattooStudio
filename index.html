@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- Definimos o tipo de documento-->
+<html lang="pt_BR">
+  <!-- definição de linguagem com o atributo lang="" -->
+  <head>
+    <!-- Tem relação com o documento todo-->
+    <!-- Page Info -->
+    <meta charset="UTF-8" />
+    <!-- tem relação com a configuração da fonte utilizada pois nem todos os navegadores reconhcem a formatação correta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tem relação com largura e altura do dispositivo e faz com não tenha scale e fique padronizado em diversos sipositivos -->
+    <title>TFTattooArtist</title>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- tem relação com o conteúdo que incluimos e  vemos na página html-->
+    <!-- Tag de Título html-->
+    <header id="header">
+      <!-- atributo id= é um identificador único-->
+
+      <nav class="container">
+        <a class="logo" href="#">Tati Ferrigno <span>Tattoo Artist</span></a>
+        <!--MENU -->
+        <div class="menu">
+          <ul class="grid">
+            <!-- cria-se uma lista-->
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!--/MENU -->
+
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1597852075234-fd721ac361d3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGF0dG9vJTIwYXJ0aXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="mãos do tatuador com a máquina de tatuagem fazendo uma tatuagem no braço de um cliente"
+            />
+            <!-- o atributo alt= serve para darmos o nome verbal da imagem caso o navegador não reconheça a imagem, pensando na acessibilidade é uma forma da pessoa que não pode ver, então algum tipo de leitor de tela irá ditar a explicação concforme consta na descrição -->
+          </div>
+          <div class="text">
+            <h2 class="title">Arte em sua pele</h2>
+            <p>
+              Uma das mais conceituadas Designers, Ilustradora e agora
+              Tatuadora, a artista Tati Ferrigno, conta com um sala exclusiva em
+              Campinas/SP, é especializada em artes exclusivas proporcionando
+              uma experiência diferenciada.
+            </p>
+            <a class="button" href="#">Verificar Agenda</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="placa no vidro de estudio de tatuagem aberto"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A enim
+              adipisci ipsum vitae amet quasi optio dicta est sint impedit
+              veniam placeat inventore aut ea similique non, iure ipsa
+              voluptates?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos consequatur quos unde quis. Aliquid ducimus, magni
+              assumenda architecto in, dolorem expedita voluptatem qui aut ab
+              deserunt quis nisi deleniti exercitationem.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis eligendi eum voluptate qui impedit eveniet, modi
+              asperiores sunt delectus autem consequatur! Aspernatur id
+              explicabo, eum ullam ipsum temporibus fugit provident?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SEVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com mais de 15 anos de experiência no mercado de Design e
+              Ilustração, a artista <strong>Tati Ferrigno</strong> agora também
+              tatuadora, elabora artes exclusivas proporcinando a melhor
+              experiência no mercado atual da tatuagem.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Artes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                minus iste, assumenda unde dolore repudiandae. Aliquam, expedita
+                aperiam? Atque, iure? Impedit nesciunt beatae illo assumenda
+                ducimus? Ex incidunt asperiores a!
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Traço</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam placeat asperiores unde doloremque, natus sapiente
+                minus iste debitis quasi alias reiciendis esse iure vel suscipit
+                ad officiis porro soluta dicta.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Cuidados</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusantium tempore placeat error, odit itaque dignissimos aut
+                optio expedita aliquam, et voluptas assumenda temporibus magni
+                perferendis sapiente, officiis numquam sunt fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste, explicabo? Alias nostrum laudantium harum quae!
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/Wanessa.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste, explicabo? Alias nostrum laudantium harum quae!
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/Franciele.jpg"
+                      alt=" Foto de Franciele Hafif"
+                    />
+                    Franciele Hafif
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste, explicabo? Alias nostrum laudantium harum quae!
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/Lucio.jpg"
+                      alt="Foto de Lucio Costa"
+                    />
+                    Lucio Costa
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato conosco!</h2>
+            <p>Gostamos de tirar dúvidas, ouvir críticas e sugestões também.</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5519999996669&text=Olá! Gostaria de agendar um horário?"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Nosso WhatsApp</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 19 99999-6669</li>
+              <li>
+                <i class="icon-map-pin"></i>Av. Alberto Sussuarana,32 Bloco Roma
+              </li>
+              <li><i class="icon-mail"></i>contato@tatiferrigno.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >Tati Ferrigno <span>Tattoo Artist</span></a
+          >
+          <p>©2021 Tati Ferrigno Tattoo Artist</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com/tati_ferrigno" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://facebook.com/tatiferrignoart" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- SWIPER -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN.JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
